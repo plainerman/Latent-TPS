@@ -3,6 +3,8 @@
 [![python](https://img.shields.io/badge/language-python%20-%2300599C.svg?style=flat-square)](https://github.com/plainerman/Latent-TPS)
 [![License](https://img.shields.io/github/license/plainerman/Latent-TPS?style=flat-square)](LICENSE)
 
+In this repository we provide code to train a [Boltzmann generator](https://www.science.org/doi/full/10.1126/science.aaw1147) on alanine dipeptide and use it to perform Latent TPS (Transition Path Sampling).
+
 ## Setting up the conda environment
 We provide a conda environment file for CUDA and CPU. You can create it by using one of the files (with or without the cpu flag).
 
