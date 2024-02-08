@@ -1,0 +1,33 @@
+name: latent-tps-cpu
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11.7
+  - pip=23.3.2
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - openpathsampling=1.6.0
+  - openmm=8.1.1
+  - openmmtools=0.23.1
+  - numpy=1.26.3
+  - tqdm=4.65.0
+  - pip:
+    - torch_geometric==2.3.1
+    - torch-scatter==2.1.1
+    - jupyterlab==4.1.0
+    - matplotlib==3.8.2
+    - PyYAML==6.0.1
+    - wandb==0.15.4
+    - nflows==0.14
+    - normflows==1.7.0
+    - git+https://github.com/VincentStimper/boltzmann-generators.git@v1.0
+    - biopython==1.81
+    - rdkit==2023.3.3
+    - plotly==5.15.0
+    - kaleido==0.2.1
+    - scikit-image==0.21.0
+    - tensorflow==2.14.0
+    - tensorflow-probability==0.22.1
