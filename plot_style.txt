@@ -1,0 +1,33 @@
+# For the values see: https://matplotlib.org/stable/tutorials/introductory/customizing.html
+
+# This color wheel is the default color wheel from: https://gist.github.com/thriveth/8560036 or https://scottplot.net/cookbook/4.1/colors/#category-10
+# but skipping red, as we don't want to mix red and green in one plot (most common color-blindness)
+axes.prop_cycle: cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+
+figure.dpi: 500
+figure.figsize: 2.5, 1.625 # 65% of width
+
+# While this is computationally expansive, it gives us a nice font
+#text.usetex: true
+#font.family: serif
+#font.serif: Times
+
+axes.titlesize: 11
+axes.labelsize: 8
+axes.grid: False
+axes.linewidth: 0.5
+
+xtick.labelsize: 6
+ytick.labelsize: 6
+xtick.major.width: 0.5
+ytick.major.width: 0.5
+
+legend.fontsize: 6
+legend.facecolor: white
+legend.framealpha: 1
+legend.edgecolor: white
+legend.borderpad: 0.25
+
+lines.linewidth: 1
+lines.markersize: 1
+grid.linewidth: 0.5
